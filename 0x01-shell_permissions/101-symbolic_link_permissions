@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -h 777 hello
+chown 777 vincent:staff hello
