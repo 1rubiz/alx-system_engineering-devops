@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -al |echo 'Best school' >>\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
+ls -l |echo 'Best school' >>\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
