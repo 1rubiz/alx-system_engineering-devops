@@ -7,7 +7,7 @@ ipaddress="$2"
 username="$3"
 pathsshkey="$4"
 if [ $# -eq 4 ]; then
-    scp -o StrictHostKeyChecking=no -i "$pathsshkey" "$filepath" "$username@$ipaddress":~/
+    scp -o StrictHostKeyChecking=no -i "$pathsshkey" "$filepath" "$username@$ipaddress":~
 else
     echo 'Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY'
 fi
